@@ -24,18 +24,6 @@
 </head>
 <body id="page-top" class="index">
 
-    <div class="dropdown"><a href="#">Język</a>
-        <ul>
-            <li>
-                <a href="@Url.Action( "ChangeCulture", "Home", new { lang="en"})">English</a>
-            </li>
-            <li>
-                <a href="@Url.Action("ChangeCulture", "Home", new { lang = "pl" })">Polish</a>
-            </li>
-        </ul>
-    </div>
-
-
     @RenderBody()
 
     <script src="@Url.Content("~/Theme/js/bootstrap.min.js")" type="text/javascript"></script>
