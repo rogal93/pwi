@@ -1,0 +1,6 @@
+namespace heroesMVC.Areas.HelpPage.ModelDescriptions
+{
+    public class SimpleTypeModelDescription : ModelDescription
+    {
+    }
+}
